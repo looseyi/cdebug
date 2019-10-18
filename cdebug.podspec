@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => '2-clause BSD', :file => 'LICENSE' }
   s.author       = { "Jeong YunWon" => "jeong@youknowone.org" }
-  s.source       = { :git => "https://github.com/youknowone/cdebug.git", :tag => s.version }
+  s.source       = { :git => "http://git.snowballfinance.com/ios/cdebug.git", :tag => s.version }
 
   s.static_framework = true
   s.module_name = 'debug'
